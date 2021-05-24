@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ganesh</title>
+    <link>https://ganeshhub94.github.io/Portfolio/post/</link>
+    <description>Recent content in Projects on Ganesh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2019 12:00:00 -0500</lastBuildDate><atom:link href="https://ganeshhub94.github.io/Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Bitcoin Price Monitor</title>
+      <link>https://ganeshhub94.github.io/Portfolio/post/chapter-4/</link>
+      <pubDate>Tue, 11 May 2021 11:13:32 -0400</pubDate>
+      
+      <guid>https://ganeshhub94.github.io/Portfolio/post/chapter-4/</guid>
+      <description>Overview:
+This python script is hosted on cloud(EC2 Instance) and will check for Bitcoin price every 30 mins once and will send an alert if the price crosses the threshold. We have scheduled this python script as cron job.
+*/30 * * * * /home/python_scripts/bitcoin_price.sh &amp;gt; /home/python_scripts/log.out 2&amp;gt;&amp;amp;1 Process:
+Using an API we fetched the current bitcoin price .We have pre-defined upper and lower threshold limits for bitcoin price.If the current fetched bitcoin price did not fall between upper-lower threshold then the trigger function is invoked and will send an alert to the given mobile number using Twilio sms service and mail using SMTP lib.</description>
+    </item>
+    
+    <item>
+      <title>Predictive Review using Pyspark</title>
+      <link>https://ganeshhub94.github.io/Portfolio/post/chapter-3/</link>
+      <pubDate>Sun, 11 Apr 2021 11:13:32 -0400</pubDate>
+      
+      <guid>https://ganeshhub94.github.io/Portfolio/post/chapter-3/</guid>
+      <description>Overview:
+Predictive Review is a service provided to the insurance carriers to assist them in identifying estimates that should be auto approved versus those that should be reviewed during the auto claims processing.
+Benifits:
+This service that automatically scores the estimate and generates a review recommendation ranging from Very Low to Very High. This recommendation can help prioritize those claims in need of review. Since data produced were large we used pyspark for quicker and efficient training.</description>
+    </item>
+    
+    <item>
+      <title> Smart Total loss</title>
+      <link>https://ganeshhub94.github.io/Portfolio/post/chapter-1/</link>
+      <pubDate>Fri, 09 Apr 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://ganeshhub94.github.io/Portfolio/post/chapter-1/</guid>
+      <description>Product Overview:
+Smart Total Loss Service is primarily used to determine if a vehicle is total loss using a single photo.It is designed to help claim adjusters to quickly identify claims in question. Based on the photos uploaded by the customer we Predict if the vehicle will be marked as Total Loss or Not.The system will also return the Probability of result determined by Smart Total Loss model.
+Process
+In this process vehicle owner can upload the damaged vehicle photos through mobile app and our model will predict whether the vehicle is Repairable or Total Loss.</description>
+    </item>
+    
+    <item>
+      <title> Web Scraping and creating Tableau dashboard</title>
+      <link>https://ganeshhub94.github.io/Portfolio/post/chapter-5/</link>
+      <pubDate>Mon, 11 Jan 2021 11:13:32 -0400</pubDate>
+      
+      <guid>https://ganeshhub94.github.io/Portfolio/post/chapter-5/</guid>
+      <description>Overview:
+Web scraping is the process to extract content and data from a website. In this project I scrapped data of MS Dhoni&amp;rsquo;s stats from sports website and converted the extracted data into csv file for creating Tableau dashboard. This helped me to improve my EDA skills.
+Process:
+Using Beautiful soup library we extracted data from html tags by creating pandas DataFrame and exported as csv file. Then with that extracted csv file i created interactive dashboard which clearly summarizes the stats.</description>
+    </item>
+    
+    <item>
+      <title>Repair Cost Prediction&#34;</title>
+      <link>https://ganeshhub94.github.io/Portfolio/post/chapter-2/</link>
+      <pubDate>Fri, 10 Jan 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://ganeshhub94.github.io/Portfolio/post/chapter-2/</guid>
+      <description>Product Overview:
+Repair Cost Prediction provides a predicted range of the estimated repair cost for a damaged vehicle using FNOL data and images.
+Benifits: The product allows policy holders to, at their convenience, take and submit to the carrier photos of their damaged vehicle; in turn, the carrier can estimate the cost of repairing the damages, and this estimated cost can help the policy holder determine whether they would like to file a claim.</description>
+    </item>
+    
+  </channel>
+</rss>
